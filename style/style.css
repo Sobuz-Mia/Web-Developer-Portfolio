@@ -5,6 +5,13 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-bottom: 130px;
+}
 .span-title{
     color: #FD6E0A;
 }
@@ -19,8 +26,16 @@ body{
 }
 .header{
     background-color:#FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-
+.section-title{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
 /* navbar section start here */
 
 .nav-bar{
@@ -52,11 +67,95 @@ body{
 
 /* banner section start here */
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner-images>img{
+.banner-content{
+    max-width: 500px;
+}
+.banner-images img{
     width: 500px;
 }
+.greeting{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.banner-title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0px 30px 0px;
 
+}
+.btn-banner{
+    margin-right: 30px;
+}
+/* Banner section ends here */
+
+/* about section start here */
+
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0px;
+
+}
+.about-description{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.about-info-container{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.about-info{
+    text-align: center;
+    margin-top: 30px;
+}
+.i-do-paragrap{
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 30px 150px;
+}
+/* skill section start here */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    border-radius: 5px;
+    padding: 30px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.skill-title{
+    margin-top: 38px;
+    margin-bottom: 20px;
+}
