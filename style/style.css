@@ -193,4 +193,47 @@ main section{
 .download-cv{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 110px;
 }
+ 
+/* resume section ends here */
+
+/* footer section start here */
+.footer-container{
+    background-color: #FFF8F3;
+    padding: 230px 130px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+.footer-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+}
+.footer-description{
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.icon{
+    margin-right: 24px;
+}
+.form-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.form input,textarea{
+    display: block;
+    margin: 20px 0px;
+    width: 460px;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 350px 18px 30px;
+    resize: none;
+}
+/* footer section ends here */
