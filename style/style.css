@@ -201,13 +201,10 @@ main section{
 /* footer section start here */
 .footer-container{
     background-color: #FFF8F3;
-    padding: 230px 130px;
+    padding: 130px 230px;
     display: flex;
     gap: 100px;
     justify-content: space-between;
-}
-.footer-left-colum{
-    width: 50%;
 }
 .footer-title{
     color: #181818;
@@ -230,7 +227,10 @@ main section{
     font-size: 35px;
     margin-bottom: 30px;
 }
-.form input,textarea{
+.form{
+    padding-right: 230;
+}
+.form input[type="text"],.form input[type="email"],textarea{
     display: block;
     margin: 20px 0px;
     width: 200px;
