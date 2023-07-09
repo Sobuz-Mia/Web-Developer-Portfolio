@@ -124,11 +124,14 @@ main section{
     line-height: 30px;
     text-align: center;
     margin-bottom: 0px;
+    padding: 30px;
 }
 .about-info-container{
     display: flex;
     margin-top: 0px;
     margin-bottom: 30px;
+    justify-content: space-around;
+    align-items: center;
 }
 .about-info{
     text-align: center;
@@ -200,10 +203,10 @@ main section{
 
 /* footer section start here */
 .footer-container{
+    gap: 97px;
     background-color: #FFF8F3;
-    padding: 130px 230px;
+    padding: 130px 80px;
     display: flex;
-    gap: 100px;
     justify-content: space-between;
 }
 .footer-title{
